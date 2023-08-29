@@ -1,0 +1,5 @@
+/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/CMakeFiles/Production.dir
+/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/CMakeFiles/Debug.dir
+/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/CMakeFiles/edit_cache.dir
+/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/CMakeFiles/rebuild_cache.dir

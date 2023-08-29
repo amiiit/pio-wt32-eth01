@@ -1,0 +1,1 @@
+double measureDistance(int trigPin, int echoPin);

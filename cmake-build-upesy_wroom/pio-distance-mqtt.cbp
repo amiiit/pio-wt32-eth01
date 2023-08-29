@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pio-distance-mqtt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60109"/>
+					<Add option="-DARDUINO_WT32_ETH01"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v4.4.4&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;wt32-eth01&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;Wireless-Tag WT32-ETH01 Ethernet Module&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/include"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps/sntp"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include/arch"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/soc"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/public_compat"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_pm/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ringbuf/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/vfs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_event/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_eth/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcpip_adapter/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ipc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_trace/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_update/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bootloader_support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nvs_flash/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/pthread/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/xtensa"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include/port/xtensa"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ieee802154/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/console"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/asio/asio/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/osi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/include/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/api/include/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cbor/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/unity/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cmock/CMock/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/libcoap/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_adc_cal/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hid/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcp_transport/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_ota/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/interface"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protobuf-c/protobuf-c"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/common"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/security"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/transports"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mdns/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_local_ctrl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/sdmmc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_serial_slave_link/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_websocket_client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/expat/expat/lib"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wear_levelling/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/diskio"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/vfs"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freemodbus/freemodbus/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/jsmn/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json/cJSON"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/port_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mqtt/esp-mqtt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/openssl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/perfmon/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spiffs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ulp/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rmaker_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_diagnostics/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rtc_store/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_insights/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_generator/upstream"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_schedule/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rainmaker/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/gpio_button/button/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/qrcode/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ws2812_led"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_littlefs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/tool"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/typedef"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/image"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/math"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/nn"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/layer"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/detect"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/model_zoo"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/src/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/esp-tts/esp_tts_chinese/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/driver/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/conversions/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fb_gfx/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/qio_qspi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/variants/wt32-eth01"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Insights/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60109"/>
+					<Add option="-DARDUINO_WT32_ETH01"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v4.4.4&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;wt32-eth01&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;Wireless-Tag WT32-ETH01 Ethernet Module&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/include"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/src"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps/sntp"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include/arch"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/soc"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/public_compat"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_pm/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ringbuf/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/vfs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_event/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_eth/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcpip_adapter/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ipc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_trace/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_update/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bootloader_support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nvs_flash/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/pthread/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/xtensa"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include/port/xtensa"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ieee802154/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/console"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/asio/asio/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/osi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/include/esp32/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/api/include/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cbor/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/unity/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cmock/CMock/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/libcoap/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_adc_cal/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hid/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcp_transport/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_ota/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_server/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/interface"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protobuf-c/protobuf-c"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/common"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/security"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/transports"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mdns/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_local_ctrl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/sdmmc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_serial_slave_link/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_websocket_client/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/expat/expat/lib"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/port/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wear_levelling/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/diskio"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/vfs"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freemodbus/freemodbus/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/jsmn/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json/cJSON"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/port_include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mqtt/esp-mqtt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/openssl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/perfmon/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spiffs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ulp/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rmaker_common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_diagnostics/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rtc_store/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_insights/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_generator/upstream"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_schedule/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rainmaker/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/gpio_button/button/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/qrcode/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ws2812_led"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_littlefs/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/tool"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/typedef"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/image"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/math"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/nn"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/layer"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/detect"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/model_zoo"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/src/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/esp-tts/esp_tts_chinese/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/include/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/driver/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/conversions/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fb_gfx/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/qio_qspi/include"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/variants/wt32-eth01"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility"/>
+					<Add directory="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Insights/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/Users/amit/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="/Users/amit/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amit/workspace/esp/pio-distance-mqtt/cmake-build-upesy_wroom/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/Adafruit_FONA.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/Adafruit_FONA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/FONA3G_setbaud/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/FONA3G_setbaud/FONA3G_setbaud.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/FONA_SMS_Response/FONA_SMS_Response.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/FONAtest/FONAtest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/FONAtest_KEY_mod/FONAtest_KEY_mod.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/GPS/GPS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/examples/IncomingCall/IncomingCall.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/includes/FONAConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/includes/FONAExtIncludes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/includes/platform/FONAPlatStd.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/includes/platform/FONAPlatform.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit FONA Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/Adafruit_MQTT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/Adafruit_MQTT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/Adafruit_MQTT_Client.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/Adafruit_MQTT_Client.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/Adafruit_MQTT_FONA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_anon_time_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_anon_time_esp8266/adafruitio_anon_time_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_errors_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_errors_esp8266/adafruitio_errors_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_airlift/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_airlift/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_airlift/adafruitio_secure_airlift.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_esp32/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_esp32/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_esp32/adafruitio_secure_esp32.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_secure_esp8266/adafruitio_secure_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_time_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/adafruitio_time_esp8266/adafruitio_time_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_2subs_esp8266/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_2subs_esp8266/.leonardo.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_2subs_esp8266/.uno.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_2subs_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_2subs_esp8266/mqtt_2subs_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/.leonardo.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/.uno.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/mqtt_arbitrary_data.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/python_subscriber/requirements.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_arbitrary_data/python_subscriber/subscriber.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266/.leonardo.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266/.uno.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266/mqtt_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266_callback/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266_callback/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_esp8266_callback/mqtt_esp8266_callback.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_ethernet/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_ethernet/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_ethernet/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_ethernet/mqtt_ethernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_fona/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_fona/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_fona/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_fona/fonahelper.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_fona/mqtt_fona.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_retain/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_retain/.leonardo.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_retain/.uno.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_retain/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_retain/mqtt_retain.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_winc1500/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_winc1500/mqtt_winc1500.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/.due.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/.esp8266.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/.leonardo.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/.uno.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/.zero.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/examples/mqtt_yun/mqtt_yun.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit MQTT Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/Adafruit_SleepyDog.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/Adafruit_SleepyDog.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/examples/BasicUsage/.nrf52840.test.skip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/examples/BasicUsage/BasicUsage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/examples/Sleep/Sleep.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogAVR.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogAVR.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogESP32.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogESP32.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogESP8266.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogESP8266.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogKinetisK.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogKinetisK.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogKinetisL.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogKinetisL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogNRF.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogNRF.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogRP2040.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogRP2040.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogSAMD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Adafruit SleepyDog Library/utility/WatchdogSAMD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.codespellrc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/dependabot.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/workflows/check-arduino.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/workflows/report-size-deltas.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.github/workflows/sync-labels.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/examples/Arduino_Debug_Advance/Arduino_Debug_Advance.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/examples/Arduino_Debug_Basic/Arduino_Debug_Basic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_DebugUtils/src/Arduino_DebugUtils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.codespellrc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/dependabot.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/workflows/arduino-lint.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/workflows/report-size-deltas.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.github/workflows/sync-labels.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/examples/LOLIN_32_Blink/LOLIN_32_Blink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/examples/OTA/OTA.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/examples/OTA/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/examples/OTA/root_ca.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/Arduino_ESP32_OTA.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/Arduino_ESP32_OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/decompress/lzss.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/decompress/lzss.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/decompress/utility.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/decompress/utility.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/Arduino_ESP32_OTA/src/tls/amazon_root_ca.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/ISSUE_TEMPLATE/bug_report.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/ISSUE_TEMPLATE/feature_request.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/ISSUE_TEMPLATE/question.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/workflows/ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.github/workflows/docs.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/CODE_OF_CONDUCT.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/TrustAnchors.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetAWSIoT/AWS_Root_CA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetAWSIoT/EthernetAWSIoT.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetHTTPS/EthernetHTTPS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetHTTPS/trust_anchors.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetMQTT/EthernetMQTT.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetMQTT/certificates.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetMultiHTTPS/EthernetMultiHTTPS.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/EthernetMultiHTTPS/trustanchors.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/stm32/EthernetHTTPSstm32/EthernetHTTPSstm32.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/stm32/EthernetHTTPSstm32/trust_anchors.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/tivac/EthernetHTTPStivac/EthernetHTTPStivac.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/examples/tivac/EthernetHTTPStivac/trust_anchors.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/readme/cert.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/SSLClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/SSLClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/SSLClientParameters.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/SSLClientParameters.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/SSLSession.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/TLS12_only_profile.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/aead/ccm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/aead/eax.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/aead/gcm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/ccopy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec16be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec16le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec32be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec32le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec64be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/dec64le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc16be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc16le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc32be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc32le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc64be.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/enc64le.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/pemdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/pemdec.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/codec/pemenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_all_m15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_all_m31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_i15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_i31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_m15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_m31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_m62.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_c25519_m64.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_curve25519.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_default.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_keygen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_p256_m15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_p256_m31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_p256_m62.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_p256_m64.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_prime_i15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_prime_i31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_pubkey.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_secp256r1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_secp384r1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ec_secp521r1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_atr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_default_sign_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_default_sign_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_default_vrfy_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_default_vrfy_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i15_bits.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i15_sign_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i15_sign_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i15_vrfy_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i15_vrfy_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i31_bits.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i31_sign_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i31_sign_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i31_vrfy_asn1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_i31_vrfy_raw.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ec/ecdsa_rta.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/dig_oid.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/dig_size.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/ghash_ctmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/ghash_ctmul32.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/ghash_ctmul64.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/ghash_pclmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/ghash_pwr8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/md5.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/md5sha1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/mgf1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/multihash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/sha1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/sha2big.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/hash/sha2small.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_add.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_bitlen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_decmod.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_decode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_decred.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_encode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_fmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_iszero.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_moddiv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_modpow.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_modpow2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_montmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_mulacc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_muladd.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_ninv15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_reduce.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_rshift.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_sub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i15_tmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_add.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_bitlen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_decmod.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_decode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_decred.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_encode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_fmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_iszero.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_moddiv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_modpow.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_modpow2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_montmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_mulacc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_muladd.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_ninv31.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_reduce.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_rshift.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_sub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i31_tmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_add.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_bitlen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_decmod.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_decode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_decred.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_div32.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_encode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_fmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_iszero.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_modpow.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_montmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_mulacc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_muladd.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_ninv32.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_reduce.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_sub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i32_tmont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/int/i62_modpow2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/kdf/hkdf.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/kdf/shake.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/mac/hmac.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/mac/hmac_ct.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rand/aesctr_drbg.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rand/hmac_drbg.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rand/sysrng.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_keygen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_modulus.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_oaep_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_oaep_encrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pkcs1_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pkcs1_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_priv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_privexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pss_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pss_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_default_pubexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_keygen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_modulus.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_oaep_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_oaep_encrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pkcs1_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pkcs1_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_priv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_privexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pss_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pss_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i15_pubexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_keygen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_keygen_inner.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_modulus.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_oaep_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_oaep_encrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pkcs1_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pkcs1_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_priv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_privexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pss_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pss_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i31_pubexp.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_oaep_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_oaep_encrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_pkcs1_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_pkcs1_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_priv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_pss_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_pss_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i32_pub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_keygen.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_oaep_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_oaep_encrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_pkcs1_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_pkcs1_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_priv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_pss_sign.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_pss_vrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_i62_pub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_oaep_pad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_oaep_unpad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_pkcs1_sig_pad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_pkcs1_sig_unpad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_pss_sig_pad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_pss_sig_unpad.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/rsa/rsa_ssl_decrypt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/settings.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/prf.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/prf_md5sha1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/prf_sha256.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/prf_sha384.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_ccert_single_ec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_ccert_single_rsa.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_client.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_client_default_rsapub.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_client_full.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_aescbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_aesccm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_aesgcm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_chapol.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_descbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_ec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_ecdsa.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_engine_default_rsavrfy.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hashes.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hs_client.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hs_client.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hs_common.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hs_server.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_hs_server.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_io.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_keyexport.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_lru.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_rec_cbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_rec_ccm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_rec_chapol.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_rec_gcm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_scert_single_ec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_scert_single_rsa.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_full_ec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_full_rsa.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_mine2c.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_mine2g.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_minf2c.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_minf2g.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_minr2g.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_minu2g.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/ssl/ssl_server_minv2g.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_dec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_big_enc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_common.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_dec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct64_enc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_dec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_ct_enc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_pwr8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_pwr8_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_pwr8_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_pwr8_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_pwr8_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_dec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_small_enc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_x86ni.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_x86ni_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_x86ni_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_x86ni_ctr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/aes_x86ni_ctrcbc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/chacha20_ct.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/chacha20_sse2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_ct.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_ct_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_ct_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_support.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_tab.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_tab_cbcdec.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/des_tab_cbcenc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/poly1305_ctmul.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/poly1305_ctmul32.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/poly1305_ctmulq.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/symcipher/poly1305_i15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/asn1.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/asn1enc.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/encode_ec_pk8der.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/encode_ec_rawder.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/encode_rsa_pk8der.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/encode_rsa_rawder.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/skey_decoder.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/skey_decoder.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_decoder.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_decoder.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_knownkey.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_minimal.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_minimal.t0">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl/src/x509/x509_minimal_full.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_aead.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_block.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_ec.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_hash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_hmac.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_kdf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_pem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_prf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_rand.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_rsa.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_ssl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/bearssl_x509.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/ec_prime_fast_256.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/inner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/src/time_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/tools/pycert_bearssl/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/tools/pycert_bearssl/ca.crt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/tools/pycert_bearssl/cert_util.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/tools/pycert_bearssl/certificates.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/SSLClient/tools/pycert_bearssl/pycert_bearssl.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/AP_SimpleWebServer/AP_SimpleWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/AP_SimpleWebServer/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/CheckWifi101FirmwareVersion/CheckWifi101FirmwareVersion.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectNoEncryption/ConnectNoEncryption.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectNoEncryption/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectWithWEP/ConnectWithWEP.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectWithWEP/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectWithWPA/ConnectWithWPA.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ConnectWithWPA/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/FirmwareUpdater/Endianess.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/FirmwareUpdater/FirmwareUpdater.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/MDNS_WiFiWebServer/MDNS_WiFiWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/MDNS_WiFiWebServer/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/Provisioning_WiFiWebServer/Provisioning_WiFiWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ScanNetworks/ScanNetworks.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/ScanNetworksAdvanced/ScanNetworksAdvanced.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/SimpleWebServerWiFi/SimpleWebServerWiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/SimpleWebServerWiFi/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiChatServer/WiFiChatServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiChatServer/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiPing/WiFiPing.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiPing/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiSSLClient/WiFiSSLClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiSSLClient/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiUdpNtpClient/WiFiUdpNtpClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiUdpNtpClient/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiUdpSendReceiveString/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebClient/WiFiWebClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebClient/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebClientRepeating/WiFiWebClientRepeating.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebClientRepeating/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebServer/WiFiWebServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/examples/WiFiWebServer/arduino_secrets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFi101.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiMDNSResponder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiMDNSResponder.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiSSLClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiSSLClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiUdp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/WiFiUdp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/include/nm_bsp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/include/nm_bsp_arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/include/nm_bsp_avr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/include/nm_bsp_internal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/include/nm_bsp_samd21.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/source/nm_bsp_arduino.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bus_wrapper/include/nm_bus_wrapper.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/common/include/nm_common.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/common/include/nm_debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/common/source/nm_common.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/ecc_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_ate_mode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_crypto.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_ota.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_periph.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_ssl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/include/m2m_wifi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_ate_mode.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_crypto.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_hif.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_hif.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_ota.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_periph.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_ssl.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/m2m_wifi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmasic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmasic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmbus.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmbus.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmdrv.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmdrv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmi2c.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmi2c.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmspi.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmspi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmuart.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/driver/source/nmuart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/socket/include/m2m_socket_host_if.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/socket/include/socket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/socket/source/socket.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/socket/source/socket_internal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/spi_flash/include/spi_flash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/spi_flash/include/spi_flash_map.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/spi_flash/source/spi_flash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/utility/WiFiSocket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/WiFi101/src/utility/WiFiSocket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/integrity.dat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/examples/BLE/BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/examples/Minimal/Minimal.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/examples/RPC/RPC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/posix/main.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src/mDash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src/mDash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src/mongoose.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/.pio/libdeps/upesy_wroom/mDash/src/mongoose.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/Go Daddy Root Certificate Authority - G2.cer">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/Go Daddy Secure Certificate Authority - G2.cer">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/connection.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/connection.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/distance.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/distance.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/src/trust_anchors.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/amit/workspace/esp/pio-distance-mqtt/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
